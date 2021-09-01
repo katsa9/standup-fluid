@@ -34,12 +34,6 @@ const App = () => {
   const [displayedMember, setDisplayedMember] = useState();
   const [config, setConfig] = useState(...defaultConfig);
 
-  useEffect(() => {
-    resetDuck();
-    setConfig(...defaultConfig)
-  }, [])
-
-
   // const _reset = () => {
   //   if (this._animation) {
   //     this._animation.addRandomSplats(random.int(100, 180));
