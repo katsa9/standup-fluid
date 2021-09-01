@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Button } from '@material-ui/core';
 import "../node_modules/react-dat-gui/build/react-dat-gui.css";
 import styles from "./App.css";
@@ -32,6 +32,13 @@ const App = () => {
 
   const [availableTeam, setAvailableTeam] = useState(billabongTeam);
   const [displayedMember, setDisplayedMember] = useState();
+  const [config, setConfig] = useState(...defaultConfig);
+
+  useEffect(() => {
+    resetDuck();
+    setConfig(...defaultConfig)
+  }, [])
+
 
   // const _reset = () => {
   //   if (this._animation) {
