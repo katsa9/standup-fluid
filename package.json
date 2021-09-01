@@ -1,0 +1,26 @@
+{
+  "name": "react-fluid-animation",
+  "homepage": "https://transitive-bullshit.github.io/react-fluid-animation",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "raf": "latest",
+    "random": "2.0.13",
+    "react": "^16.6.3",
+    "react-dat-gui": "^1.0.2",
+    "react-dom": "^16.6.3",
+    "react-github-corner": "^2.3.0",
+    "react-scripts": "^1.1.4",
+    "react-sizeme": "2.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "keywords": ["react", "fluid", "animation", "webgl"],
+  "description": "Fluid media animation for React powered by WebGL."
+}
