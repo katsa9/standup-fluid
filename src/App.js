@@ -40,28 +40,28 @@ const App = () => {
   }, [])
 
 
-  const _reset = () => {
-    if (this._animation) {
-      this._animation.addRandomSplats(random.int(100, 180));
-    }
-  };
+  // const _reset = () => {
+  //   if (this._animation) {
+  //     this._animation.addRandomSplats(random.int(100, 180));
+  //   }
+  // };
 
-  const _animationRef = ref => {
-    this._animation = ref;
-    this._reset();
-  };
+  // const _animationRef = ref => {
+  //   this._animation = ref;
+  //   this._reset();
+  // };
 
-  const _onUpdate = config => {
-    this.setState({ config });
-  };
+  // const _onUpdate = config => {
+  //   this.setState({ config });
+  // };
 
-  const _onClickRandomSplats = () => {
-    this._animation.addSplats((5 + Math.random() * 20) | 0);
-  };
+  // const _onClickRandomSplats = () => {
+  //   this._animation.addSplats((5 + Math.random() * 20) | 0);
+  // };
 
-  const _onReset = () => {
-    this.setState({ config: { ...defaultConfig } });
-  };
+  // const _onReset = () => {
+  //   this.setState({ config: { ...defaultConfig } });
+  // };
 
   const selectTeammate = () => {
     const itemIndexToSelect = Math.floor(Math.random() * availableTeam.length);
