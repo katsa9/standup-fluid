@@ -77,7 +77,6 @@ const App = () => {
 
   const resetDuck = () => {
     setAvailableTeam(billabongTeam);
-    setDisplayedMember("hello")
   }
 
   return (
