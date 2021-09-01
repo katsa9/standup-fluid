@@ -35,11 +35,6 @@ const App = () => {
   const [displayedMember, setDisplayedMember] = useState();
   const [config, setConfig] = useState(...defaultConfig);
 
-  useEffect(() => {
-    _reset();
-  }, [])
-
-
   // const _reset = () => {
   //   if (this._animation) {
   //     this._animation.addRandomSplats(random.int(100, 180));
