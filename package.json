@@ -5,6 +5,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
     "prop-types": "^15.6.2",
     "raf": "latest",
     "random": "2.0.13",
@@ -21,6 +22,11 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "keywords": ["react", "fluid", "animation", "webgl"],
+  "keywords": [
+    "react",
+    "fluid",
+    "animation",
+    "webgl"
+  ],
   "description": "Fluid media animation for React powered by WebGL."
 }

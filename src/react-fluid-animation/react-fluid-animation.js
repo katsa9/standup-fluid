@@ -94,6 +94,7 @@ class ReactFluidAnimation extends Component {
 
   _onMouseMove = event => {
     event.preventDefault();
+    this._animation.onMouseDown(event.nativeEvent);
     this._animation.onMouseMove(event.nativeEvent);
   };
 

@@ -1,0 +1,12 @@
+.Button {
+    top: 300px;
+    z-index: 999;
+    left: 45%;
+}
+
+.MuiButton-root {
+    top: 70%;
+    z-index: 999;
+    left: 41%;
+    margin: 0 20px;
+  }
