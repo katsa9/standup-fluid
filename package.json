@@ -6,14 +6,16 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
+    "fsevents": "^2.3.2",
     "prop-types": "^15.6.2",
     "raf": "latest",
     "random": "2.0.13",
     "react": "^16.6.3",
+    "react-app-polyfill": "^2.0.0",
     "react-dat-gui": "^1.0.2",
     "react-dom": "^16.6.3",
     "react-github-corner": "^2.3.0",
-    "react-scripts": "^1.1.4",
+    "react-scripts": "2.0.3",
     "react-sizeme": "2.5.2"
   },
   "scripts": {
@@ -28,5 +30,11 @@
     "animation",
     "webgl"
   ],
-  "description": "Fluid media animation for React powered by WebGL."
+  "description": "Fluid media animation for React powered by WebGL.",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
